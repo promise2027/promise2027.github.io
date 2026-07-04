@@ -1,13 +1,12 @@
 ---
 showonlyimage: true
 title: "Call for papers"
-subtitle: "Contribute to PerAgent 2027!"
+subtitle: "Contribute to PROMISE 2027!"
 excerpt: "Call for Papers"
 description: "The call for papers is out"
 date: 2026-06-30
-author: "Dipanwita Thakur, Vishesh Kumar Tanwar, Pandarasamy Arjunan, Hirozumi Yamaguchi
-"
-image: "img/goa.jpg"
+author: "Dipanwita Thakur, Daniela Annunziata, Francesco Piccialli, Antonella Guzzo"
+image: "img/unical.jpg"
 URL: "/cfp"
 ---
 
@@ -34,22 +33,24 @@ Topics of interest include but are not limited to:
 # Submission instructions
 
 Authors are invited to submit full papers that are unpublished and not under review elsewhere. 
-All submissions will undergo a peer-review process by Program Commitee members in a single blind fashion.
+All submissions will undergo a peer-review process by Program Committee members in a single blind fashion.
 
-All accepted papers will be published as part of the PerCom satellite events proceedings. Proceedings will be published by the IEEE and available online through IEEE Digital Library. 
+Contributions to all calls should be submitted electronically to the Workshop management system at https://easychair.org/my/conference?conf=icpm2025. At least one author of each accepted paper is expected to participate in the conference and present his/her work.
 
-**Submission deadline: ~~November 17th 2025~~ <span class="red">December 7th, 2026</span>**
+Submissions must be original contributions that have not been published previously. Submissions must be in English and must not exceed 12 pages (including figures, bibliography and appendices). Each paper should contain a short abstract, clarifying the relation of the paper to the workshop topics, clearly stating the problem being addressed, the goal of the work, the results achieved, and the relation to the literature. Research papers will be published by Springer as a post-workshop proceedings volume in the series Lecture Notes in Business Information Processing (LNBIP). Due to editorial requirements, traditional workshops are expected to have an acceptance rate for research papers published in the LNBIP series of not more than 50%.
+
+Authors are requested to prepare submissions according to the format of the Lecture Notes in Business Information Processing (LNBIP) series by Springer http://www.springer.com/computer/lncs?SGWID=0-164-6-791344-0.
+
+We encourage authors to follow the principles of transparency, reproducibility, and replicability. To enhance the accessibility of research artefacts and datasets, authors are advised to make them accessible via public repositories (e.g., Zenodo, Figshare, GitHub, or institutional archives) under an open data license such as the CC0 dedication or the CC-BY 4.0 license. 
+
+**Submission deadline: <span class="red">October 11th, 2026</span>**
 <!--{.red}-->
 <!-- <div class="newsbox yellow"> To facilitate the workshop organization and the review process, we invite contributors to submit their abstract by <div><b>November 24th, 2026</b></div> </div> -->
 
 You can submit your paper on EDAS by clicking [here](XXXXXXX)
 
-**Important**: each accepted paper requires a full PerCom registration and at least one author attending the workshop to present it (no registration is available for workshops only).
+**Important**: each accepted paper requires a full ICPM registration and at least one author attending the workshop to present it (no registration is available for workshops only).
  <span class="red">Papers without a valid full registration or that are not presented in-person will be excluded from the proceedings.</span>
 
-### Paper format
-
-* Workshop papers are to be no more than 6 pages (overall, i.e. including references). A maximum of 1 additional page may be purchased.
-* FORMAT: [IEEE template](https://www.ieee.org/conferences/publishing/templates.html), 10 pt, 2-column format (same template as the main conference)
 
 
