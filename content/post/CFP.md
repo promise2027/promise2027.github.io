@@ -11,23 +11,36 @@ URL: "/cfp"
 ---
 
 # Call for Papers
-The **Pervasive Agentic Systems and Multimodal Foundation
-Models (PerAgent)** workshop focuses on the critical systems-level challenges of transitioning from narrow, singletask edge AI to general-purpose, autonomous AI agents operating in physical environments.
-Currently, foundation models are trapped in the cloud due to massive computational
-requirements. This workshop explores how large-scale models such as Large Language
-Models (LLMs), Vision-Language Models (VLMs), and Multimodal Language Models (MLMs)
-can be compressed, decentralized, and securely integrated with pervasive sensor networks. 
-
-Topics of interest include but are not limited to:
-
-* Hardware-software co-design for edge agents
-* Decentralized and split/federated agentic learning
-* Multimodal sensor fusion for VLMs/MLMs
-* Trust, safety, and local overrides for physical actuation
-* Bandwidth-efficient distributed inference
-* Cross-domain agent adaptation algorithms
-* Agentic synchronization across IoT mesh networks
-
+The <b>Process Mining for Intelligent, Sustainable, and Explainable AI-Driven Systems (PROMISE 2027) </b> Workshop aims to bring together researchers and practitioners working at the intersection of Process Mining, Artificial Intelligence, Business Process Management, and Data Science. The workshop will provide a forum to discuss novel methodologies, tools, applications, and challenges related to intelligent, explainable, privacy-preserving, and sustainable process mining.
+The workshop particularly encourages contributions that explore how emerging AI technologies, including Large Language Models (LLMs), Generative AI, Agentic AI, Federated Learning, and Digital Twins can enhance process mining capabilities and support next-generation process intelligence.
+# Topics of Interest
+Topics include, but are not limited to:
+● Machine Learning for Process Discovery
+● AI Driven Monitoring Business Process
+● Prescriptive Process Analytics
+● Process Recommendation Systems
+● Agentic AI for Process Improvement
+● LLMs for Process Mining
+● Explainability of AI Decision Processes
+● Monitoring AI-driven Business Processes
+● Process Intelligence Platforms
+● Federated Process Mining
+● Privacy-Preserving Process Discovery
+● Secure Process Analytics
+● Healthcare Process Mining
+● Manufacturing and Industry 5.0
+● Smart Cities
+● Agriculture
+● Transportation and Logistics
+● Public Sector Processes
+● Education Analytics
+# Submission Types
+Authors are invited to submit:
+● Full research papers
+● Short papers presenting novel ideas and preliminary results
+● Industrial experience reports
+● Application and case-study papers
+● Vision papers outlining future research directions
 
 
 # Submission instructions
