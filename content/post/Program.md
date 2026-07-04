@@ -5,15 +5,15 @@ subtitle: "Tentative Program for the Workshop"
 excerpt: "Program"
 description: "The program will be available here!"
 date: 2024-06-30
-author: "Dipanwita Thakur, Vishesh Kumar Tanwar, Pandarasamy Arjunan, Hirozumi Yamaguchi"
-image: "img/goa.jpg"
+author: "Dipanwita Thakur, Daniela Annunziata, Francesco Piccialli, Antonella Guzzo"
+image: "img/unical.jpg"
 URL: "/program"
 ---
 
 
 # Program
 
-The workshop will be a full day workshop on the **8th of March 2027** 
+The workshop will be a full day workshop on the **8th of February 2027** 
 <style>
     table {
         width: 100%;
@@ -57,7 +57,7 @@ The workshop will be a full day workshop on the **8th of March 2027**
     <tbody>
         <tr class="registration-row"><td>08:30-09:00</td><td>Registration</td><td></td></tr>
         <tr class="session-row"><td></td><td>Session 1: Welcome & Keynote</td><td>Chair: Sajal K. Das</td></tr>
-        <tr class="welcome-row"><td>09:00-09:20</td><td><em>Welcome to PerAgent</em></td><td>Dipanwita Thakur, Vishesh Kumar Tanwar, Pandarasamy Arjunan, Hirozumi Yamaguchi</td></tr>
+        <tr class="welcome-row"><td>09:00-09:20</td><td><em>Welcome to PROMISE</em></td><td>Dipanwita Thakur, Daniela Annunziata, Francesco Piccialli, Antonella Guzzo</td></tr>
         <tr><td>09:20-10:20</td><td><em><a href="#XXXXXXX">Keynote: XXXXXX</a></em></td><td>Antonio Virdis</td></tr>
         <tr class="qa-row"><td>10:20-10:30</td><td>Joint Q&A</td><td></td></tr>
         <tr class="coffee-break"><td>10:30-11:00</td><td>Coffee Break</td><td></td></tr>
@@ -76,7 +76,7 @@ The workshop will be a full day workshop on the **8th of March 2027**
         <tr><td>16:00-16:20</td><td><em>Title</em></td><td>Authors</td></tr>
         
         <tr class="qa-row"><td>17:20-17:30</td><td>Joint Q&A</td><td></td></tr>
-        <tr class="closing-row"><td>17:30-18:00</td><td>Closing</td><td>Dipanwita Thakur, Vishesh Kumar Tanwar, Pandarasamy Arjunan, Hirozumi Yamaguchi</td></tr>
+        <tr class="closing-row"><td>17:30-18:00</td><td>Closing</td><td>Dipanwita Thakur, Daniela Annunziata, Francesco Piccialli, Antonella Guzzo</td></tr>
     </tbody>
 </table>
 
