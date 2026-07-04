@@ -1,0 +1,36 @@
+.red {
+    color: red;
+}
+
+.newsbox{
+    text-align:center; 
+}
+
+.yellow {
+    margin:20px 0px; 
+    padding-bottom: 20px;
+    background-color: lightgoldenrodyellow;
+    border:4px solid #e2c20c; 
+}
+
+.blue {
+    border:4px solid #8398db; 
+    margin:20px 0px; 
+    background-color: #8398db33;
+}
+
+#twinkle {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+#twinkle>img {
+    flex-grow: 1 !important;
+    max-width:50% !important;
+    margin-right: 20px !important;
+}
+
+#twinkle>span {
+    flex-grow: 1 !important;
+}

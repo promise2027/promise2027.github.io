@@ -1,0 +1,154 @@
+baseurl = "https://peragent-percom.github.io/2027/"
+title = "PerAgent 2027"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
+preserveTaxonomyNames = false
+pagination.pagersize = 500 #frontpage pagination
+hasCJKLanguage = false
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/goa.jpg"
+  SEOTitle = "PerAgent 2027"
+  description = "Pervasive Agentic Systems and Multimodal Foundation Models"
+  keyword = "Agentic Systems, multimodality, Pervasive Computing"
+  slogan = "Pervasive Agentic Systems and Multimodal Foundation Models"
+
+  #image_404 = "img/favicon.jpg"
+  title_404 = "Nothing to see here :("
+  omit_categories = true
+  showtoc = false
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+   sidebar_about_description = "IEEE PerCom 2027 workshop, Goa (India), March 8 – 12, 2027, "
+   sidebar_avatar = "img/percom.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+   sidebar_url = "/2027/about"
+
+  featured_tags = false 
+  featured_condition_size = 1 
+
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqrus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
+  # Twikoo comments
+  # Follow https://twikoo.js.org/ to set up your own env_id
+  twikoo_env_id = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = false 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = false
+  bookmarks = false
+  about_me = true
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+   custom_css = ["css/basic.css"]
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
+  [params.social]
+  #rss            = true 
+  email          = "sara.montagna@uniurb.it"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/digita-percom"
+  #wechat         = "your wechat qr code image"
+  #medium        = "full profile url in medium"
+  #slack         = "full workspace url in slack"
+  #pinterest     = "full profile url in pinterest"
+  #reddit        = "full profile url in reddit"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
+  #git           = "full profile url for git user"
+  
+  # [[params.friend_link]]
+  # title = "Linda的博客"
+  # href =  "https://zhaozhihan.com"
+
+  # [[params.bookmark_link]]
+  # title =  "Martin Fowler"
+  # href =  "https://martinfowler.com"
+  # [[params.bookmark_link]]
+  # title = "ServiceMesher"
+  # href =  "http://www.servicemesher.com"
+  # [[params.bookmark_link]]
+  # title =  "Pxhere"
+  # href = "https://pxhere.com"
+  # [[params.bookmark_link]]
+  # title = "unsplash"
+  # href = "https://unsplash.com"
+  
+  [[params.addtional_menus]]
+  title =  "Call For Papers"
+  href =  "/2027/cfp/"
+  [[params.addtional_menus]]
+  title =  "Organization"
+  href =  "/2027/organization/"
+ [[params.addtional_menus]]
+  title =  "Dates"
+  href =  "/2027/dates/"
+  [[params.addtional_menus]]
+  title =  "Program"
+  href =  "/2027/program/"
+  [[params.addtional_menus]]
+  title =  "Accepted papers"
+  href =  "/2027/accepted/"
+  [[params.addtional_menus]]
+  title =  "Previous Events"
+  href =  "/2027/previous/"
+  
+ # [[params.addtional_menus]]
+ # title =  "Percom 2027"
+ # href =  "/2027/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+      [markup.goldmark.renderer]
+        unsafe = true
+

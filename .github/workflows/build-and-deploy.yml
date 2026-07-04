@@ -1,0 +1,50 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Built job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compute the version of Hugo
+        id: hugo
+        shell: bash
+        run: |
+          USES=$(cat <<TRICK_RENOVATE
+          - uses: gohugoio/hugo@v0.111.3
+          TRICK_RENOVATE
+          )
+          echo "Scripts update line: \"$USES\""
+          echo "Computed version: \"${USES#*@v}\""
+          echo "::set-output name=version::${USES#*@v}"
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.6.0
+        with:
+          hugo-version: "${{ steps.hugo.outputs.version }}"
+          extended: true
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          submodules: recursive
+      - name: Build with Hugo
+        run: hugo
+      - #if: github.ref == 'refs/heads/master'
+        name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
