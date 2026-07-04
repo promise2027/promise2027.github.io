@@ -1,4 +1,4 @@
-baseurl = "https://peragent-percom.github.io/2027/"
+baseurl = "https://promise2027.github.io"
 title = "PerAgent 2027"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
